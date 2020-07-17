@@ -4,9 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh ls
-                sh pwd
-                sh whoami
+                sh 'ls'
+                sh 'pwd'
+                sh 'whoami'
+                sh 'docker'
+                docker
                 echo 'Building..'
                 echo 'Changing....'
                 echo 'Another Change!!!!!.....'
