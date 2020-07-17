@@ -8,7 +8,6 @@ pipeline {
                 sh 'pwd'
                 sh 'whoami'
                 sh 'docker'
-                docker
                 echo 'Building..'
                 echo 'Changing....'
                 echo 'Another Change!!!!!.....'
