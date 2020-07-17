@@ -4,6 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                ls
+                pwd
+                whoami
                 echo 'Building..'
                 echo 'Changing....'
                 echo 'Another Change!!!!!.....'
